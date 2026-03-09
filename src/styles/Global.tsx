@@ -26,15 +26,16 @@ const GlobalStyle = createGlobalStyle`
 
 * {
   box-sizing: border-box;
+  font-family: 'W95FA', sans-serif;
 }
 
 html,body, #root {
+  min-height: 100%;
   height: 100%;
 }
 body {
   padding: 0;
   margin: 0;
-  font-family: 'W95FA', sans-serif;
 }
 `;
 

@@ -1,6 +1,5 @@
 
--
-
+spinners demo: https://www.youtube.com/watch?v=CLkLvOmNOjc
 
 1. Create window element to contain site content
 	- [ ] Window should open when valid input entered on command line

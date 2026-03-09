@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+/// <reference types="vitest/config" />
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+// More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
   server: {
     watch: {
@@ -9,12 +10,10 @@ export default defineConfig({
       interval: 500
     }
   },
-  plugins: [
-    react({
-      include: "**/*.tsx",
-      babel: {
-        plugins: [['babel-plugin-react-compiler']],
-      },
-    }),
-  ],
-})
+  plugins: [react({
+    include: "**/*.tsx",
+    babel: {
+      plugins: [['babel-plugin-react-compiler']]
+    }
+  })],
+});
