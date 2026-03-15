@@ -12,23 +12,24 @@ spinners demo: https://www.youtube.com/watch?v=CLkLvOmNOjc
 	- enter key to select menu item and begin extant load process
 4. Repeated errors should change message (result in multi-window bug and BSOD if > max)
 5. ~~Mock LOADING process on cli~~
-6. Match window element styling 1:1 for Windows 95/98
-7. Old school vs modern toggle - choose on first load and enable command switching after load (use styled-components themeing)
-8. Click and drag behaviour on all windows
-9. integrate games ("entertainment")
-10. open window on successful command
+6. change trace state to array of objects with key to show/hide directory
+7. Match window element styling 1:1 for Windows 95/98
+8. Old school vs modern toggle - choose on first load and enable command switching after load (use styled-components themeing)
+9. Click and drag behaviour on all windows
+10. integrate games ("entertainment")
+11. open window on successful command
 	- [x] animate window fade-in
 	- [ ] loading text & animation
-11. Taskbar buttons 
+12. Taskbar buttons 
 	- [x] Close button should hide window & reverse animation
 	- [ ] Button Click - aesthetic
-12. Loading bar
+13. Loading bar
 	- [x] add messages to trace based on loading % (25, 50 & 75)
 	- [ ] spinning slash animation looks stretched out and incomplete with simple rotate - further animation required to mimic DOS behaviour
-13. Startup trace (0s and 1s image?)
-14. [ ] Refactor CSS to use nested styling
-15. ~~Fix trace to stack above primary input~~
-16. Migrate to React
+14. Startup trace (0s and 1s image?)
+15. [ ] Refactor CSS to use nested styling
+16. ~~Fix trace to stack above primary input~~
+17. ~~Migrate to React~~
 	- Global styling and variables
 	- content
 	- 

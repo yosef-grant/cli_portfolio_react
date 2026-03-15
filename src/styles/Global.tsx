@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import W95FA from "../fonts/w95fa.woff";
 import W95FA2 from "../fonts/w95fa.woff2";

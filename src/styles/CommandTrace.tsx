@@ -3,6 +3,9 @@ import { styled } from "styled-components";
 
 const CommandTraceLine = styled.div`
 margin-bottom: .25rem;
+  & span {
+    margin-right: .25rem;
+  }
   & p {
     display: inline;
     margin-top: 0;
