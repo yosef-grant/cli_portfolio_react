@@ -69,6 +69,7 @@ const MainWindow = styled.div`
 
       button {
         background: ${windowGrey};
+        color: #000;
         min-height: 90%;
         font-size: 10px;
         width: 16px;
@@ -84,6 +85,14 @@ const MainWindow = styled.div`
         border-bottom-color: #000;
         position: relative;
         font-weight: bold;
+        
+        
+        &:active {
+          border-bottom-color: #fff;
+          border-right-color: #fff;
+          border-left-color: #000;
+          border-top-color: #000;
+        }
       }
     }
   }
