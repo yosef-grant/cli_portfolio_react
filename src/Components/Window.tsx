@@ -11,7 +11,8 @@ import type { Page } from "../types";
 const Window: FC<{
   activePage: Page | null;
   setActivePage: Dispatch<SetStateAction<Page | null>>;
-}> = ({ activePage, setActivePage }) => {
+  setHideInput: Dispatch<SetStateAction<boolean>>;
+}> = ({ activePage, setActivePage, setHideInput }) => {
   const main = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
