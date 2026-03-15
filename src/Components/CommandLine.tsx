@@ -8,13 +8,13 @@ import React, {
   type SubmitEventHandler,
 } from "react";
 import { CommandLineInput } from "../styles/CommandLine";
-import type { ValidInput } from "../types";
+import type { TraceLine, ValidInput } from "../types";
 
 const validCommands: ValidInput[] = ["about", "contact", "help", "clear"];
 
 const CommandLine: FC<{
-  setTrace: Dispatch<SetStateAction<string[]>>;
-  trace: string[];
+  setTrace: Dispatch<SetStateAction<TraceLine[]>>;
+  trace: TraceLine[];
   setCommand: Dispatch<SetStateAction<ValidInput | null>>;
 }> = ({ setTrace, trace, setCommand }) => {
   const commandInput = useRef<null | HTMLInputElement>(null);
